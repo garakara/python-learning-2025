@@ -15,7 +15,6 @@ def solve(n):
         if 1 not in a and 2 not in a and 4 not in a and 6 not in a and 8 not in a and 9 not in a and 0 not in a:
             if 3 in a and 5 in a and 7 in a:
                 count += 1
-                print(a)
         
         num += 1
 
