@@ -1,6 +1,7 @@
 import sys
 from collections import deque, defaultdict, Counter
 from itertools import permutations, combinations
+import bisect
 import math
 
 def solve():
