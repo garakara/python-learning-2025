@@ -2,7 +2,6 @@ arr = [2, 1, 3, -7, 11]
 target = 10
 
 for bits in range(2**len(arr)):
-    print(bits)
     total = 0
     selected = []
     

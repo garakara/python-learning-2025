@@ -1,4 +1,5 @@
 # 方法3.Itertools.product（最もシンプル）
+# メリット：超シンプル, デメリット：パターン数が多いと遅い
 from itertools import product
 s = input()
 digits = list(map(int, s))
@@ -16,5 +17,6 @@ for ops in product(['+', '-'], repeat=3):
         exp += op + str(digits[i+1])
         
     if total == 7:
+    
         print(exp+"=7")
         break
